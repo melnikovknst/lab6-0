@@ -37,6 +37,8 @@ int get_hght(TREE* unit) {
 }
 
 
+
+//         define height of unit
 void def_hght(TREE* unit) {
     unit->height = get_hght(unit->left);
     
